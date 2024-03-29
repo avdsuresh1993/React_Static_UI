@@ -1,0 +1,57 @@
+.hero{
+background: url(../../assets/images/sven-d-a4S6KUuLeoM-unsplash.jpg);
+background-repeat: no-repeat;
+background-position:center bottom;
+background-size:cover ;
+display: flex;
+width:100%;
+min-height:88vh;
+}
+
+form{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:700px;
+    margin: auto;
+    margin-top: 5%;
+    padding:6px 25px;
+    background-color: rgba(247, 247, 247,0.9);
+    border-radius: 25px;
+}
+
+form label{
+    font-size: .8rem;
+    padding-bottom: 2px;
+}
+
+form input{
+    border:none;
+    background-color: transparent;
+}
+
+form input:focus{
+    outline: none;
+}
+
+input[type=text]{
+    width:250px;
+}
+
+.text,.from,.until{
+ display:flex;
+ flex-direction: column;
+ font-weight: bold;
+}
+
+.border{
+border-left: 2px solid black;
+}
+
+.search_btn{
+    display:flex;
+    align-items: center;
+}
+.search_btn button{
+    display: none;
+}
